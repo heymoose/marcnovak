@@ -1,0 +1,21 @@
+2018-10-10 09:30:54.415 CDT [4199] FATAL:  lock file "postmaster.pid" already exists
+2018-10-10 09:30:54.415 CDT [4199] HINT:  Is another postmaster (PID 4189) running in data directory "/usr/local/var/postgres"?
+2018-10-10 09:42:52.512 CDT [4267] FATAL:  lock file "postmaster.pid" already exists
+2018-10-10 09:42:52.512 CDT [4267] HINT:  Is another postmaster (PID 4257) running in data directory "/usr/local/var/postgres"?
+2018-10-10 09:47:04.526 CDT [4350] LOG:  could not bind IPv6 address "::1": Address already in use
+2018-10-10 09:47:04.526 CDT [4350] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-10-10 09:47:04.527 CDT [4350] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2018-10-10 09:47:04.527 CDT [4350] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2018-10-10 09:47:04.527 CDT [4350] WARNING:  could not create listen socket for "localhost"
+2018-10-10 09:47:04.527 CDT [4350] FATAL:  could not create any TCP/IP sockets
+2018-10-10 09:47:04.528 CDT [4350] LOG:  database system is shut down
+2018-10-10 09:56:13.097 CDT [4589] LOG:  listening on IPv6 address "::1", port 5432
+2018-10-10 09:56:13.097 CDT [4589] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-10-10 09:56:13.098 CDT [4589] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-10-10 09:56:13.109 CDT [4590] LOG:  database system was shut down at 2018-10-10 09:56:01 CDT
+2018-10-10 09:56:13.111 CDT [4589] LOG:  database system is ready to accept connections
+2018-10-10 10:08:54.028 CDT [4836] FATAL:  role "postgres" does not exist
+2018-10-10 10:17:19.580 CDT [4895] ERROR:  role "!angel2388" does not exist
+2018-10-10 10:17:19.580 CDT [4895] STATEMENT:  ALTER USER "!angel2388" PASSWORD 'md5fa0b5369a60d5ace96cab23d58ffffdb'
+2018-10-10 10:19:14.740 CDT [4922] FATAL:  role "postgres" does not exist
+2018-10-10 10:21:02.220 CDT [4943] FATAL:  role "postgres" does not exist
