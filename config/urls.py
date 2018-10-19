@@ -20,6 +20,7 @@ urlpatterns = [
         include("marcnovak.users.urls", namespace="users"),
     ),
     path("accounts/", include("allauth.urls")),
+    path("posts/", include("blog.urls")),
     # Your stuff: custom urls includes go here
 ] + static(
     settings.MEDIA_URL, document_root=settings.MEDIA_ROOT
