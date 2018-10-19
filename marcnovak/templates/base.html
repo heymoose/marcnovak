@@ -57,6 +57,11 @@
               <a class="nav-link" href="{% url 'post_list' %}">Blog</a>
             </li>
           </ul>
+          {% if user.is_authenticated %}
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item"><a href="{% url 'post_new' %}">+ New</a></li>
+            </ul>
+          {% endif %}
         </div>
       </nav>
 
